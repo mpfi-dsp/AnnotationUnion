@@ -4,25 +4,17 @@ A plugin to combine annotations in the Dragonfly Open3D World software. Made for
 
 ## Automatic Installation (Windows)
 
-1. Ensure Python 3.5 or later is installed from [python.org](https://www.python.org). (Disclaimer: the installer was tested with Python 3.11 and 3.12. Other versions should work, but are not guaranteed to work).
-2. On this webpage, click Code -> Download ZIP
-3. Go to your downloads folder and extract the zip file
-4. Within the extracted file, run `_install.py` (you may need to right-click -> open with -> Python)
-5. Follow the instructions in the installer to install the plugin.
+Ensure that Dragonfly 2025.1 is installed. Close all Dragonfly windows.
 
-## Manual Installation (All Operating Systems)
+> 💡 **Note:** If you are installing the plugin with a version of Dragonfly different from 2025.1: (1) the plugin is not guaranteed to work correctly; (2) the plugin must be installed manually or the `DRAGONFLY_PROGRAMDATA` variable must be updated accordingly in the installation script.
 
-1. Open Dragonfly
-2. Select Developer -> Python Plugin Generator
-3. Select if you want this plugin to be installed for your local user or all users
-4. Select "Create New From Existing Plugin"
-5. Copy the filepath in the file explorer window it opened
-6. Open another file explorer window
-7. Go to the filepath and create a new, empty folder called `AnnotationUnion_924df9cb243f11efad78f83441a96bd5`
-8. On this webpage, click Code -> Download ZIP
-9. Go to your downloads folder and extract the zip file
-10. Copy the contents of the zip file to the folder you created (`AnnotationUnion_924...`)
-11. Restart Dragonfly
+1. On this webpage, click Code -> Download ZIP
+2. Go to your downloads folder and extract the zip file
+3. Within the extracted file, find the `install.bat` file and run it.
+
+> ℹ️ **Info:** Windows may give a warning that the installer script is an unrecognized app. This is because the script is not digitally signed and widely distributed. Simply click **More info → Run Anyway**.
+
+> ℹ️ **Info:** The installer script will ask for administrator privileges. This is required to copy files to the Dragonfly ProgramData directory.k
 
 ## Usage
 
