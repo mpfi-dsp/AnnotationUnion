@@ -8,7 +8,7 @@ Ensure that Dragonfly 2025.1 is installed. Close all Dragonfly windows.
 
 > 💡 **Note:** If you are installing the plugin with a version of Dragonfly different from 2025.1: (1) the plugin is not guaranteed to work correctly; (2) the plugin must be installed manually or the `DRAGONFLY_PROGRAMDATA` variable must be updated accordingly in the installation script.
 
-1. On this webpage, click Code -> Download ZIP
+1. Head to the [releases page](https://github.com/AlexanderJCS/AnnotationUnion/releases/latest) and download **Source code (zip)**.
 2. Go to your downloads folder and extract the zip file
 3. Within the extracted file, find the `install.bat` file and run it.
 
@@ -24,4 +24,4 @@ To use the plugin:
 3. Select an annotation to append other annotations to (this annotation will be modified). Do not enter anything under the "Name" field
 4. Select "Start Annotation Union".
 5. Select annotations to append. Click "OK" to append the annotation.
-6. When done, click "Cancel". The annotations will be appended to the initial annotation.
+6. When done, click "Cancel." The annotations will be appended to the initial annotation.
